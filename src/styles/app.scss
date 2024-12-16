@@ -1,0 +1,16 @@
+@use "./global/variables.scss";
+@use "./global/reset.scss";
+@use "./components/nav.scss";
+@use "./components/contactMenu.scss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+    h2 {
+        text-transform: capitalize;
+    }
+}
